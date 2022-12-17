@@ -1,0 +1,360 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16278 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Алексей/Desktop/Unity/Asteroids
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52666
+Successfully changed project path to: C:/Users/Алексей/Desktop/Unity/Asteroids
+C:/Users/Алексей/Desktop/Unity/Asteroids
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 87.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Алексей/Desktop/Unity/Asteroids/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon Pro 5500M (ID=0x7340)
+    Vendor:   ATI
+    VRAM:     4056 MB
+    Driver:   26.20.13003.5002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007929 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 91.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.643 seconds
+Domain Reload Profiling:
+	ReloadAssembly (644ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (468ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008143 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Алексей\Desktop\Unity\Asteroids\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Алексей\Desktop\Unity\Asteroids\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 84.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.096 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1097ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (882ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4210 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (222.3 KB). Loaded Objects now: 4662.
+Memory consumption went from 154.3 MB to 154.1 MB.
+Total: 3.946800 ms (FindLiveObjects: 0.309100 ms CreateObjectMapping: 0.260400 ms MarkObjects: 3.222300 ms  DeleteObjects: 0.154000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28022.650578 seconds.
+  path: Assets/Scripts/Asteroids/Repository
+  artifactKey: Guid(37c51e7620ca37d4b9cd6518f4959d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository using Guid(37c51e7620ca37d4b9cd6518f4959d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123a3821b2f03e91f237c5391c64f740') in 0.026187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.687805 seconds.
+  path: Assets/Scripts/Asteroids/Repository/NewBehaviourScript.cs
+  artifactKey: Guid(c46cf425a1697d244a52c2410cebb02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/NewBehaviourScript.cs using Guid(c46cf425a1697d244a52c2410cebb02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fbb3fa10f59f9e5728230990397884') in 0.016258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.200971 seconds.
+  path: Assets/Scripts/Asteroids/Repository/IData.cs
+  artifactKey: Guid(c46cf425a1697d244a52c2410cebb02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/IData.cs using Guid(c46cf425a1697d244a52c2410cebb02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faefd562f88f025c30740eee7a0d2e12') in 0.001340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.525845 seconds.
+  path: Assets/Scripts/Asteroids/Repository/JsonData.cs
+  artifactKey: Guid(09892f057d1ea7f4fa93568c199059b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/JsonData.cs using Guid(09892f057d1ea7f4fa93568c199059b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ae626d98e39948a4e1f61d78e7c9ff') in 0.001419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.565289 seconds.
+  path: Assets/Scripts/Asteroids/Repository/PlayerPrefsData.cs
+  artifactKey: Guid(62b0f3e38ac014441937f13888ab07b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/PlayerPrefsData.cs using Guid(62b0f3e38ac014441937f13888ab07b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e035bf5e91230433b901747995f00b14') in 0.003355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.218125 seconds.
+  path: Assets/Scripts/Asteroids/Repository/SaveDataRepository.cs
+  artifactKey: Guid(3e0ec4c2c983f97419d262e36b744e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/SaveDataRepository.cs using Guid(3e0ec4c2c983f97419d262e36b744e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d504b8d2df765fa39adb6027cbe3f75') in 0.001458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.816940 seconds.
+  path: Assets/Scripts/Asteroids/TryParse
+  artifactKey: Guid(2f52f0e79e7939f46be039cc41ec8c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/TryParse using Guid(2f52f0e79e7939f46be039cc41ec8c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f58c285044204d6ee521059a60f1f0') in 0.001818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.961675 seconds.
+  path: Assets/Scripts/Asteroids/TryParse/NewBehaviourScript.cs
+  artifactKey: Guid(14f2fe80cf441214dbfebb027e9f52a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/TryParse/NewBehaviourScript.cs using Guid(14f2fe80cf441214dbfebb027e9f52a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642dd72aeeabee93f179b4e834b5b4c0') in 0.001354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.991932 seconds.
+  path: Assets/Scripts/Asteroids/TryParse/Example.cs
+  artifactKey: Guid(14f2fe80cf441214dbfebb027e9f52a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/TryParse/Example.cs using Guid(14f2fe80cf441214dbfebb027e9f52a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ceb77cd9d9085d18ad81d739db0423a') in 0.001685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.024172 seconds.
+  path: Assets/Scripts/Asteroids/SwitchPattern
+  artifactKey: Guid(217e7b2b842755c4f90dbd17efbbe023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/SwitchPattern using Guid(217e7b2b842755c4f90dbd17efbbe023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f603a86413c3087558dfaa8d48b53d4a') in 0.003995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.071193 seconds.
+  path: Assets/Scripts/Asteroids/SwitchPattern/NewBehaviourScript.cs
+  artifactKey: Guid(67f406853c338a440bca6f815b0fe8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/SwitchPattern/NewBehaviourScript.cs using Guid(67f406853c338a440bca6f815b0fe8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186c95a9c62af9f919ff3b140d9ee1bd') in 0.001329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.807703 seconds.
+  path: Assets/Scripts/Asteroids/SwitchPattern/SwitchPattern.cs
+  artifactKey: Guid(67f406853c338a440bca6f815b0fe8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/SwitchPattern/SwitchPattern.cs using Guid(67f406853c338a440bca6f815b0fe8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef86f150bf0c93fb450d503ed8d1009e') in 0.001149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.048956 seconds.
+  path: Assets/Scripts/Asteroids/MVVM
+  artifactKey: Guid(84184f51655430f4cb6a7e7eccdf6da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM using Guid(84184f51655430f4cb6a7e7eccdf6da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a0e7043b0ce65df5915f9fbd137c98') in 0.001641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.112168 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/IHpModel.cs
+  artifactKey: Guid(73da430be11f8ae4f8e9c458bee47417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/IHpModel.cs using Guid(73da430be11f8ae4f8e9c458bee47417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdadbbb6a0ab6f7a51bae6594715a252') in 0.001627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.895636 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/HpModel.cs
+  artifactKey: Guid(6b7c38673f96c0444aca85b5ecce911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/HpModel.cs using Guid(6b7c38673f96c0444aca85b5ecce911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0e6e91df3eb64f30c086871f33cdc0') in 0.003484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.308897 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/IHpViewModel.cs
+  artifactKey: Guid(ea439c8a6c463754295d67b12c6dfa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/IHpViewModel.cs using Guid(ea439c8a6c463754295d67b12c6dfa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ee79e2365d8b1f434663d13c2b686f') in 0.004930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.663664 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/HpViewModel.cs
+  artifactKey: Guid(95611e2c6e0937c4da46604c974fdf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/HpViewModel.cs using Guid(95611e2c6e0937c4da46604c974fdf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f30bd189014da0a053e07360f8fe45f') in 0.004094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.201727 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/HpView.cs
+  artifactKey: Guid(14e0901468fc2d7449c4ae22febee717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/HpView.cs using Guid(14e0901468fc2d7449c4ae22febee717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718d8a4d234aed6a5edd5ecb7c517a99') in 0.001461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.071254 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/ApplyDamageView.cs
+  artifactKey: Guid(1718896e46ced914db60a60b1ada325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/ApplyDamageView.cs using Guid(1718896e46ced914db60a60b1ada325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed00678037872b89af18f9f35de77f6') in 0.003263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.689144 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/Starter.cs
+  artifactKey: Guid(d7afd8b542336c74a9b71849414953fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/Starter.cs using Guid(d7afd8b542336c74a9b71849414953fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94531574e876f6ddba5891f50886f687') in 0.001494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.924417 seconds.
+  path: Assets/Scripts/Asteroids/Repository/IData.cs
+  artifactKey: Guid(c46cf425a1697d244a52c2410cebb02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/IData.cs using Guid(c46cf425a1697d244a52c2410cebb02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb11baab9678f3c9f461df7b9efa4a95') in 0.001481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.058696 seconds.
+  path: Assets/Scripts/Asteroids/Repository/JsonData.cs
+  artifactKey: Guid(09892f057d1ea7f4fa93568c199059b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/JsonData.cs using Guid(09892f057d1ea7f4fa93568c199059b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727922da212809484953ccc1afb74d96') in 0.001464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.683943 seconds.
+  path: Assets/Scripts/Asteroids/Repository/PlayerPrefsData.cs
+  artifactKey: Guid(62b0f3e38ac014441937f13888ab07b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/PlayerPrefsData.cs using Guid(62b0f3e38ac014441937f13888ab07b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3ade014a3adb4eb24039418a1659b0') in 0.001343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.577255 seconds.
+  path: Assets/Scripts/Asteroids/Repository/SaveDataRepository.cs
+  artifactKey: Guid(3e0ec4c2c983f97419d262e36b744e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/SaveDataRepository.cs using Guid(3e0ec4c2c983f97419d262e36b744e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc55c4e5b2b12660b1fafcb1037f01c') in 0.001486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 148.882003 seconds.
+  path: Assets/Scripts/Asteroids/TryParse/Example.cs
+  artifactKey: Guid(14f2fe80cf441214dbfebb027e9f52a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/TryParse/Example.cs using Guid(14f2fe80cf441214dbfebb027e9f52a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24cba9af4377c988610b69a142089ec') in 0.001210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.463526 seconds.
+  path: Assets/Scripts/Asteroids/SwitchPattern/SwitchPattern.cs
+  artifactKey: Guid(67f406853c338a440bca6f815b0fe8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/SwitchPattern/SwitchPattern.cs using Guid(67f406853c338a440bca6f815b0fe8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f1a2399995d7042091e53d0c2a537f') in 0.001352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.356360 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/IHpModel.cs
+  artifactKey: Guid(73da430be11f8ae4f8e9c458bee47417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/IHpModel.cs using Guid(73da430be11f8ae4f8e9c458bee47417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0263a237a53d6e24721fb7fe754289') in 0.001195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.604457 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/HpModel.cs
+  artifactKey: Guid(6b7c38673f96c0444aca85b5ecce911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/HpModel.cs using Guid(6b7c38673f96c0444aca85b5ecce911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b01290696040258e9091fd017ccf99a') in 0.001668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.798121 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/IHpViewModel.cs
+  artifactKey: Guid(ea439c8a6c463754295d67b12c6dfa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/IHpViewModel.cs using Guid(ea439c8a6c463754295d67b12c6dfa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763b8d42fc2bfd0548b69b95c8ba8cd4') in 0.001498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.366665 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/HpViewModel.cs
+  artifactKey: Guid(95611e2c6e0937c4da46604c974fdf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/HpViewModel.cs using Guid(95611e2c6e0937c4da46604c974fdf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f709a26510f492fef83ab716c1d1c62b') in 0.001167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.006342 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/HpView.cs
+  artifactKey: Guid(14e0901468fc2d7449c4ae22febee717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/HpView.cs using Guid(14e0901468fc2d7449c4ae22febee717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a688e9496178bfcf05aa6f0ca8eb19b') in 0.001607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.737716 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/ApplyDamageView.cs
+  artifactKey: Guid(1718896e46ced914db60a60b1ada325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/ApplyDamageView.cs using Guid(1718896e46ced914db60a60b1ada325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241469ef33279766b5d4ff17ce76e1db') in 0.001605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.350863 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/Starter.cs
+  artifactKey: Guid(d7afd8b542336c74a9b71849414953fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/Starter.cs using Guid(d7afd8b542336c74a9b71849414953fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df92e293f1b9a8d8a6f65206382464a') in 0.001145 seconds 

@@ -15,7 +15,7 @@ C:/Users/Алексей/Desktop/Unity/Asteroids
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61398
+52666
 Successfully changed project path to: C:/Users/Алексей/Desktop/Unity/Asteroids
 C:/Users/Алексей/Desktop/Unity/Asteroids
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Алексей/Desktop/Unity/Asteroids
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 84.94 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 87.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008129 seconds.
+Registered in 0.007929 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 82.74 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 91.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.626 seconds
+- Completed reload, in  0.643 seconds
 Domain Reload Profiling:
-	ReloadAssembly (626ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (644ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (450ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (468ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (101ms)
+			SetupTypeCache (102ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (276ms)
+			SetupLoadedEditorAssemblies (291ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
+				InitializePlatformSupportModulesInManaged (41ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
+				RefreshPlugins (92ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008363 seconds.
+Registered in 0.008143 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Алексей\Desktop\Unity\Asteroids\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Алексей\Desktop\Unity\Asteroids\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 88.98 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 84.44 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
+- Completed reload, in  1.096 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1129ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1097ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (913ms)
-			LoadAssemblies (100ms)
+		EndReloadAssembly (882ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
+			SetupTypeCache (224ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (465ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (470ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4184 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (222.5 KB). Loaded Objects now: 4636.
-Memory consumption went from 153.7 MB to 153.5 MB.
-Total: 3.634600 ms (FindLiveObjects: 0.323900 ms CreateObjectMapping: 0.235100 ms MarkObjects: 2.878500 ms  DeleteObjects: 0.196000 ms)
+Unloading 4210 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (222.3 KB). Loaded Objects now: 4662.
+Memory consumption went from 154.3 MB to 154.1 MB.
+Total: 3.946800 ms (FindLiveObjects: 0.309100 ms CreateObjectMapping: 0.260400 ms MarkObjects: 3.222300 ms  DeleteObjects: 0.154000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,373 +162,199 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 22066.871607 seconds.
-  path: Assets/Scripts/Asteroids/NullObject/NewBehaviourScript.cs
-  artifactKey: Guid(6cefbffb64de8cc498a335b5ae0f0baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/NullObject/NewBehaviourScript.cs using Guid(6cefbffb64de8cc498a335b5ae0f0baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6680e39928b4af6c53d203e739cffa6') in 0.022740 seconds 
+  Time since last request: 28022.650578 seconds.
+  path: Assets/Scripts/Asteroids/Repository
+  artifactKey: Guid(37c51e7620ca37d4b9cd6518f4959d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository using Guid(37c51e7620ca37d4b9cd6518f4959d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123a3821b2f03e91f237c5391c64f740') in 0.026187 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.304427 seconds.
-  path: Assets/Scripts/Asteroids/NullObject/NullObjectTest.cs
-  artifactKey: Guid(6cefbffb64de8cc498a335b5ae0f0baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/NullObject/NullObjectTest.cs using Guid(6cefbffb64de8cc498a335b5ae0f0baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a477d05a63dcfce892cf38e215d44198') in 0.001884 seconds 
+  Time since last request: 20.687805 seconds.
+  path: Assets/Scripts/Asteroids/Repository/NewBehaviourScript.cs
+  artifactKey: Guid(c46cf425a1697d244a52c2410cebb02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/NewBehaviourScript.cs using Guid(c46cf425a1697d244a52c2410cebb02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fbb3fa10f59f9e5728230990397884') in 0.016258 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 55.664629 seconds.
-  path: Assets/Scripts/Asteroids/NullObject/NullObjectTest.cs
-  artifactKey: Guid(6cefbffb64de8cc498a335b5ae0f0baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/NullObject/NullObjectTest.cs using Guid(6cefbffb64de8cc498a335b5ae0f0baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c874f83bf5c4e94bb9db648132de238f') in 0.001512 seconds 
+  Time since last request: 4.200971 seconds.
+  path: Assets/Scripts/Asteroids/Repository/IData.cs
+  artifactKey: Guid(c46cf425a1697d244a52c2410cebb02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/IData.cs using Guid(c46cf425a1697d244a52c2410cebb02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faefd562f88f025c30740eee7a0d2e12') in 0.001340 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.647851 seconds.
-  path: Assets/Scripts/Asteroids/Observer
-  artifactKey: Guid(513ce38d72879d6469469102f6eaaa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Observer using Guid(513ce38d72879d6469469102f6eaaa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2598471233c02907a40a728bedc81a') in 0.001367 seconds 
+  Time since last request: 66.525845 seconds.
+  path: Assets/Scripts/Asteroids/Repository/JsonData.cs
+  artifactKey: Guid(09892f057d1ea7f4fa93568c199059b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/JsonData.cs using Guid(09892f057d1ea7f4fa93568c199059b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ae626d98e39948a4e1f61d78e7c9ff') in 0.001419 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.304825 seconds.
-  path: Assets/Scripts/Asteroids/Observer/IHit.cs
-  artifactKey: Guid(91eec8e0e21613c44a04de7c25632cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Observer/IHit.cs using Guid(91eec8e0e21613c44a04de7c25632cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2ed0b13d902dc8013d96ccb349d907') in 0.001793 seconds 
+  Time since last request: 16.565289 seconds.
+  path: Assets/Scripts/Asteroids/Repository/PlayerPrefsData.cs
+  artifactKey: Guid(62b0f3e38ac014441937f13888ab07b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/PlayerPrefsData.cs using Guid(62b0f3e38ac014441937f13888ab07b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e035bf5e91230433b901747995f00b14') in 0.003355 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.494676 seconds.
-  path: Assets/Scripts/Asteroids/Observer/Enemy.cs
-  artifactKey: Guid(97d7d1aa692980c4d8c2dbdf24c54643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Observer/Enemy.cs using Guid(97d7d1aa692980c4d8c2dbdf24c54643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81565ccac63bbce3e57f5fb3a15ee838') in 0.002617 seconds 
+  Time since last request: 17.218125 seconds.
+  path: Assets/Scripts/Asteroids/Repository/SaveDataRepository.cs
+  artifactKey: Guid(3e0ec4c2c983f97419d262e36b744e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/SaveDataRepository.cs using Guid(3e0ec4c2c983f97419d262e36b744e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d504b8d2df765fa39adb6027cbe3f75') in 0.001458 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.246983 seconds.
-  path: Assets/Scripts/Asteroids/Observer/ListenerHitShowDamage.cs
-  artifactKey: Guid(e35de5c912f6ac6418bcf369fdae6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Observer/ListenerHitShowDamage.cs using Guid(e35de5c912f6ac6418bcf369fdae6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145e5159cf7ab0e5e41512c7d8b8e575') in 0.002081 seconds 
+  Time since last request: 44.816940 seconds.
+  path: Assets/Scripts/Asteroids/TryParse
+  artifactKey: Guid(2f52f0e79e7939f46be039cc41ec8c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/TryParse using Guid(2f52f0e79e7939f46be039cc41ec8c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f58c285044204d6ee521059a60f1f0') in 0.001818 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.100559 seconds.
-  path: Assets/Scripts/Asteroids/Observer/ObserverTest.cs
-  artifactKey: Guid(ecd522c99fe869343a4ac428e5a1c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Observer/ObserverTest.cs using Guid(ecd522c99fe869343a4ac428e5a1c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab32c83a51a09bf4e893d7fdb014720') in 0.002195 seconds 
+  Time since last request: 13.961675 seconds.
+  path: Assets/Scripts/Asteroids/TryParse/NewBehaviourScript.cs
+  artifactKey: Guid(14f2fe80cf441214dbfebb027e9f52a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/TryParse/NewBehaviourScript.cs using Guid(14f2fe80cf441214dbfebb027e9f52a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642dd72aeeabee93f179b4e834b5b4c0') in 0.001354 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.396078 seconds.
-  path: Assets/Scripts/Asteroids/Observer/IHit.cs
-  artifactKey: Guid(91eec8e0e21613c44a04de7c25632cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Observer/IHit.cs using Guid(91eec8e0e21613c44a04de7c25632cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4401f66fb3bc2850936abf0e703e2bdb') in 0.001625 seconds 
+  Time since last request: 3.991932 seconds.
+  path: Assets/Scripts/Asteroids/TryParse/Example.cs
+  artifactKey: Guid(14f2fe80cf441214dbfebb027e9f52a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/TryParse/Example.cs using Guid(14f2fe80cf441214dbfebb027e9f52a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ceb77cd9d9085d18ad81d739db0423a') in 0.001685 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.172712 seconds.
-  path: Assets/Scripts/Asteroids/Observer/Enemy.cs
-  artifactKey: Guid(97d7d1aa692980c4d8c2dbdf24c54643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Observer/Enemy.cs using Guid(97d7d1aa692980c4d8c2dbdf24c54643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80766d600da1200ab5a9d50ac275cbc6') in 0.001490 seconds 
+  Time since last request: 20.024172 seconds.
+  path: Assets/Scripts/Asteroids/SwitchPattern
+  artifactKey: Guid(217e7b2b842755c4f90dbd17efbbe023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/SwitchPattern using Guid(217e7b2b842755c4f90dbd17efbbe023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f603a86413c3087558dfaa8d48b53d4a') in 0.003995 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.454333 seconds.
-  path: Assets/Scripts/Asteroids/Observer/ListenerHitShowDamage.cs
-  artifactKey: Guid(e35de5c912f6ac6418bcf369fdae6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Observer/ListenerHitShowDamage.cs using Guid(e35de5c912f6ac6418bcf369fdae6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352fa6e4ea1b000ae7cc67defbd1c0aa') in 0.001600 seconds 
+  Time since last request: 13.071193 seconds.
+  path: Assets/Scripts/Asteroids/SwitchPattern/NewBehaviourScript.cs
+  artifactKey: Guid(67f406853c338a440bca6f815b0fe8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/SwitchPattern/NewBehaviourScript.cs using Guid(67f406853c338a440bca6f815b0fe8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186c95a9c62af9f919ff3b140d9ee1bd') in 0.001329 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.334012 seconds.
-  path: Assets/Scripts/Asteroids/Observer/ObserverTest.cs
-  artifactKey: Guid(ecd522c99fe869343a4ac428e5a1c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Observer/ObserverTest.cs using Guid(ecd522c99fe869343a4ac428e5a1c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fe208ff07ff65ae022de3ec0f5f0d6') in 0.001482 seconds 
+  Time since last request: 3.807703 seconds.
+  path: Assets/Scripts/Asteroids/SwitchPattern/SwitchPattern.cs
+  artifactKey: Guid(67f406853c338a440bca6f815b0fe8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/SwitchPattern/SwitchPattern.cs using Guid(67f406853c338a440bca6f815b0fe8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef86f150bf0c93fb450d503ed8d1009e') in 0.001149 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.886798 seconds.
-  path: Assets/Scripts/Asteroids/State
-  artifactKey: Guid(0aab354c539e69946b8f5419c4b69762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/State using Guid(0aab354c539e69946b8f5419c4b69762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19b2fb667f24b73d004d17dd25ac82a') in 0.001553 seconds 
+  Time since last request: 22.048956 seconds.
+  path: Assets/Scripts/Asteroids/MVVM
+  artifactKey: Guid(84184f51655430f4cb6a7e7eccdf6da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM using Guid(84184f51655430f4cb6a7e7eccdf6da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a0e7043b0ce65df5915f9fbd137c98') in 0.001641 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.563066 seconds.
-  path: Assets/Scripts/Asteroids/State/NewBehaviourScript.cs
-  artifactKey: Guid(cce30999cb99e4942958f0e290457b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/State/NewBehaviourScript.cs using Guid(cce30999cb99e4942958f0e290457b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9c9f6564c1103ae0b7c37b481226a4') in 0.001344 seconds 
+  Time since last request: 28.112168 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/IHpModel.cs
+  artifactKey: Guid(73da430be11f8ae4f8e9c458bee47417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/IHpModel.cs using Guid(73da430be11f8ae4f8e9c458bee47417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdadbbb6a0ab6f7a51bae6594715a252') in 0.001627 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.087549 seconds.
-  path: Assets/Scripts/Asteroids/State/State.cs
-  artifactKey: Guid(cce30999cb99e4942958f0e290457b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/State/State.cs using Guid(cce30999cb99e4942958f0e290457b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bc13a44a0945cac522cd6eb7a497e8') in 0.001465 seconds 
+  Time since last request: 12.895636 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/HpModel.cs
+  artifactKey: Guid(6b7c38673f96c0444aca85b5ecce911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/HpModel.cs using Guid(6b7c38673f96c0444aca85b5ecce911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0e6e91df3eb64f30c086871f33cdc0') in 0.003484 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.566506 seconds.
-  path: Assets/Scripts/Asteroids/State/ConcreteStateA.cs
-  artifactKey: Guid(162f2416541efd3448139b650edace62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/State/ConcreteStateA.cs using Guid(162f2416541efd3448139b650edace62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fab851dda87eca7419d575661c80fa') in 0.001836 seconds 
+  Time since last request: 14.308897 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/IHpViewModel.cs
+  artifactKey: Guid(ea439c8a6c463754295d67b12c6dfa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/IHpViewModel.cs using Guid(ea439c8a6c463754295d67b12c6dfa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ee79e2365d8b1f434663d13c2b686f') in 0.004930 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.932034 seconds.
-  path: Assets/Scripts/Asteroids/State/ConcreteStateB.cs
-  artifactKey: Guid(fde3b1e78f33023418cd7163a38865a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/State/ConcreteStateB.cs using Guid(fde3b1e78f33023418cd7163a38865a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5f50997182545b45e9dac8ee72e523') in 0.001672 seconds 
+  Time since last request: 19.663664 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/HpViewModel.cs
+  artifactKey: Guid(95611e2c6e0937c4da46604c974fdf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/HpViewModel.cs using Guid(95611e2c6e0937c4da46604c974fdf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f30bd189014da0a053e07360f8fe45f') in 0.004094 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.305849 seconds.
-  path: Assets/Scripts/Asteroids/State/Context.cs
-  artifactKey: Guid(385c49974f21ea34fb7754aff1fb1291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/State/Context.cs using Guid(385c49974f21ea34fb7754aff1fb1291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ac4a7883a9967415d596cb6516c724') in 0.003946 seconds 
+  Time since last request: 27.201727 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/HpView.cs
+  artifactKey: Guid(14e0901468fc2d7449c4ae22febee717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/HpView.cs using Guid(14e0901468fc2d7449c4ae22febee717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718d8a4d234aed6a5edd5ecb7c517a99') in 0.001461 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.751593 seconds.
-  path: Assets/Scripts/Asteroids/State/StateTest.cs
-  artifactKey: Guid(e906910d612fea5409c8d87555bdb8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/State/StateTest.cs using Guid(e906910d612fea5409c8d87555bdb8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71911f0873eef00a0f7b9b3bad5f793c') in 0.001888 seconds 
+  Time since last request: 25.071254 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/ApplyDamageView.cs
+  artifactKey: Guid(1718896e46ced914db60a60b1ada325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/ApplyDamageView.cs using Guid(1718896e46ced914db60a60b1ada325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed00678037872b89af18f9f35de77f6') in 0.003263 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.721483 seconds.
-  path: Assets/Scripts/Asteroids/State/State.cs
-  artifactKey: Guid(cce30999cb99e4942958f0e290457b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/State/State.cs using Guid(cce30999cb99e4942958f0e290457b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaa9d0592783df5c8ef0074a2231fae') in 0.002658 seconds 
+  Time since last request: 15.689144 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/Starter.cs
+  artifactKey: Guid(d7afd8b542336c74a9b71849414953fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/Starter.cs using Guid(d7afd8b542336c74a9b71849414953fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94531574e876f6ddba5891f50886f687') in 0.001494 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.843627 seconds.
-  path: Assets/Scripts/Asteroids/State/ConcreteStateA.cs
-  artifactKey: Guid(162f2416541efd3448139b650edace62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/State/ConcreteStateA.cs using Guid(162f2416541efd3448139b650edace62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2169d72cef384da71cd7103bd2fc7295') in 0.001473 seconds 
+  Time since last request: 80.924417 seconds.
+  path: Assets/Scripts/Asteroids/Repository/IData.cs
+  artifactKey: Guid(c46cf425a1697d244a52c2410cebb02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/IData.cs using Guid(c46cf425a1697d244a52c2410cebb02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb11baab9678f3c9f461df7b9efa4a95') in 0.001481 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.536613 seconds.
-  path: Assets/Scripts/Asteroids/State/ConcreteStateB.cs
-  artifactKey: Guid(fde3b1e78f33023418cd7163a38865a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/State/ConcreteStateB.cs using Guid(fde3b1e78f33023418cd7163a38865a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526f348ce07031cb4b98b59cfff7f10c') in 0.001203 seconds 
+  Time since last request: 27.058696 seconds.
+  path: Assets/Scripts/Asteroids/Repository/JsonData.cs
+  artifactKey: Guid(09892f057d1ea7f4fa93568c199059b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/JsonData.cs using Guid(09892f057d1ea7f4fa93568c199059b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727922da212809484953ccc1afb74d96') in 0.001464 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.596319 seconds.
-  path: Assets/Scripts/Asteroids/State/Context.cs
-  artifactKey: Guid(385c49974f21ea34fb7754aff1fb1291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/State/Context.cs using Guid(385c49974f21ea34fb7754aff1fb1291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6834699f772ac8339d6d4ab8f69f5676') in 0.001170 seconds 
+  Time since last request: 64.683943 seconds.
+  path: Assets/Scripts/Asteroids/Repository/PlayerPrefsData.cs
+  artifactKey: Guid(62b0f3e38ac014441937f13888ab07b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/PlayerPrefsData.cs using Guid(62b0f3e38ac014441937f13888ab07b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3ade014a3adb4eb24039418a1659b0') in 0.001343 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.849770 seconds.
-  path: Assets/Scripts/Asteroids/State/StateTest.cs
-  artifactKey: Guid(e906910d612fea5409c8d87555bdb8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/State/StateTest.cs using Guid(e906910d612fea5409c8d87555bdb8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3d08ab8dd4ada35159561e2563646e') in 0.001099 seconds 
+  Time since last request: 45.577255 seconds.
+  path: Assets/Scripts/Asteroids/Repository/SaveDataRepository.cs
+  artifactKey: Guid(3e0ec4c2c983f97419d262e36b744e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/Repository/SaveDataRepository.cs using Guid(3e0ec4c2c983f97419d262e36b744e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc55c4e5b2b12660b1fafcb1037f01c') in 0.001486 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.969108 seconds.
-  path: Assets/Scripts/Asteroids/Strategy
-  artifactKey: Guid(2c6eec2eb74228244a2e86f48690b325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Strategy using Guid(2c6eec2eb74228244a2e86f48690b325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c083f4d972ba268cc8c7e259d64861bd') in 0.001327 seconds 
+  Time since last request: 148.882003 seconds.
+  path: Assets/Scripts/Asteroids/TryParse/Example.cs
+  artifactKey: Guid(14f2fe80cf441214dbfebb027e9f52a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/TryParse/Example.cs using Guid(14f2fe80cf441214dbfebb027e9f52a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24cba9af4377c988610b69a142089ec') in 0.001210 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.266987 seconds.
-  path: Assets/Scripts/Asteroids/Strategy/BaseBehaviour.cs
-  artifactKey: Guid(47afbc84f1d6fa64a8a6de63e462b392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Strategy/BaseBehaviour.cs using Guid(47afbc84f1d6fa64a8a6de63e462b392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb63467ee2d4352770e1e3be133a332e') in 0.001747 seconds 
+  Time since last request: 49.463526 seconds.
+  path: Assets/Scripts/Asteroids/SwitchPattern/SwitchPattern.cs
+  artifactKey: Guid(67f406853c338a440bca6f815b0fe8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/SwitchPattern/SwitchPattern.cs using Guid(67f406853c338a440bca6f815b0fe8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f1a2399995d7042091e53d0c2a537f') in 0.001352 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.242573 seconds.
-  path: Assets/Scripts/Asteroids/Strategy/MoveBehaviour.cs
-  artifactKey: Guid(2984d8637db6caa40b4535d8c49e5848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Strategy/MoveBehaviour.cs using Guid(2984d8637db6caa40b4535d8c49e5848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6ad482c1eee3e0753de123ed3e3ad0') in 0.004334 seconds 
+  Time since last request: 65.356360 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/IHpModel.cs
+  artifactKey: Guid(73da430be11f8ae4f8e9c458bee47417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/IHpModel.cs using Guid(73da430be11f8ae4f8e9c458bee47417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0263a237a53d6e24721fb7fe754289') in 0.001195 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.461195 seconds.
-  path: Assets/Scripts/Asteroids/Strategy/RotateBehaviour.cs
-  artifactKey: Guid(6318514ee9bc68b478dccd91bee9950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Strategy/RotateBehaviour.cs using Guid(6318514ee9bc68b478dccd91bee9950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19c6aee19325b6eb57c66e32e3a8d37') in 0.001503 seconds 
+  Time since last request: 21.604457 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/HpModel.cs
+  artifactKey: Guid(6b7c38673f96c0444aca85b5ecce911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/HpModel.cs using Guid(6b7c38673f96c0444aca85b5ecce911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b01290696040258e9091fd017ccf99a') in 0.001668 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.437322 seconds.
-  path: Assets/Scripts/Asteroids/Strategy/StrategyTest.cs
-  artifactKey: Guid(6a8ab9a8d79f00d4a99a4ee2d1c59feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Strategy/StrategyTest.cs using Guid(6a8ab9a8d79f00d4a99a4ee2d1c59feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee008e86c0a8a2e64b9e30aa6bc6d75') in 0.002051 seconds 
+  Time since last request: 47.798121 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/IHpViewModel.cs
+  artifactKey: Guid(ea439c8a6c463754295d67b12c6dfa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/IHpViewModel.cs using Guid(ea439c8a6c463754295d67b12c6dfa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763b8d42fc2bfd0548b69b95c8ba8cd4') in 0.001498 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3712.953685 seconds.
-  path: Assets/Scripts/Asteroids/Strategy/BaseBehaviour.cs
-  artifactKey: Guid(47afbc84f1d6fa64a8a6de63e462b392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Strategy/BaseBehaviour.cs using Guid(47afbc84f1d6fa64a8a6de63e462b392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d9832ab58ab1815afba695911c5cf8') in 0.001615 seconds 
+  Time since last request: 37.366665 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/HpViewModel.cs
+  artifactKey: Guid(95611e2c6e0937c4da46604c974fdf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/HpViewModel.cs using Guid(95611e2c6e0937c4da46604c974fdf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f709a26510f492fef83ab716c1d1c62b') in 0.001167 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.796171 seconds.
-  path: Assets/Scripts/Asteroids/Strategy/MoveBehaviour.cs
-  artifactKey: Guid(2984d8637db6caa40b4535d8c49e5848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Strategy/MoveBehaviour.cs using Guid(2984d8637db6caa40b4535d8c49e5848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f0768857a4615c3bfd4c77ce0341cd') in 0.022030 seconds 
+  Time since last request: 30.006342 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/HpView.cs
+  artifactKey: Guid(14e0901468fc2d7449c4ae22febee717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/HpView.cs using Guid(14e0901468fc2d7449c4ae22febee717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a688e9496178bfcf05aa6f0ca8eb19b') in 0.001607 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.823258 seconds.
-  path: Assets/Scripts/Asteroids/Strategy/RotateBehaviour.cs
-  artifactKey: Guid(6318514ee9bc68b478dccd91bee9950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Strategy/RotateBehaviour.cs using Guid(6318514ee9bc68b478dccd91bee9950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ee55e14196cb58dca652454b6d751f') in 0.001585 seconds 
+  Time since last request: 34.737716 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/ApplyDamageView.cs
+  artifactKey: Guid(1718896e46ced914db60a60b1ada325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/ApplyDamageView.cs using Guid(1718896e46ced914db60a60b1ada325c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241469ef33279766b5d4ff17ce76e1db') in 0.001605 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.076681 seconds.
-  path: Assets/Scripts/Asteroids/Strategy/RotateBehaviour.cs
-  artifactKey: Guid(6318514ee9bc68b478dccd91bee9950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Strategy/RotateBehaviour.cs using Guid(6318514ee9bc68b478dccd91bee9950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9a287b132bd0d6eaa3a83bc0da088f') in 0.001231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.600912 seconds.
-  path: Assets/Scripts/Asteroids/Strategy/StrategyTest.cs
-  artifactKey: Guid(6a8ab9a8d79f00d4a99a4ee2d1c59feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Strategy/StrategyTest.cs using Guid(6a8ab9a8d79f00d4a99a4ee2d1c59feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b225297a46b23cb65657e7edc223ad3') in 0.001315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.133063 seconds.
-  path: Assets/Scripts/Asteroids/Template Method
-  artifactKey: Guid(1ad1d88559017e7449f6dc36e8dcfa9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Template Method using Guid(1ad1d88559017e7449f6dc36e8dcfa9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9f36adf2e85f6a3ca8cd7975c7aff6') in 0.003480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.336461 seconds.
-  path: Assets/Scripts/Asteroids/Template Method/Site.cs
-  artifactKey: Guid(bf5d1b9c7e6a0ff4d8dee372ebedafe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Template Method/Site.cs using Guid(bf5d1b9c7e6a0ff4d8dee372ebedafe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62db46d037e95b9cdfb525290c718582') in 0.001817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.347710 seconds.
-  path: Assets/Scripts/Asteroids/Template Method/New Folder
-  artifactKey: Guid(d8ec18fd3973ba04581de16e582ead52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Template Method/New Folder using Guid(d8ec18fd3973ba04581de16e582ead52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948ef34904d318d8449971d29212f274') in 0.001692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.456848 seconds.
-  path: Assets/Scripts/Asteroids/Template Method/VK.cs
-  artifactKey: Guid(1fb2c06e6581a8b4db61a540fa81e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Template Method/VK.cs using Guid(1fb2c06e6581a8b4db61a540fa81e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b62433f3888b6dcc4484ca11fddc04c') in 0.001699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.621807 seconds.
-  path: Assets/Scripts/Asteroids/Template Method/Start.cs
-  artifactKey: Guid(04ce97d5b708a47488e188081e903923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Template Method/Start.cs using Guid(04ce97d5b708a47488e188081e903923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b32926e8f520740630db4959343a32') in 0.001610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 55.463587 seconds.
-  path: Assets/Scripts/Asteroids/Template Method/Site.cs
-  artifactKey: Guid(bf5d1b9c7e6a0ff4d8dee372ebedafe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Template Method/Site.cs using Guid(bf5d1b9c7e6a0ff4d8dee372ebedafe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad3f15945fc91f778b4880f4c675efe') in 0.001468 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.847278 seconds.
-  path: Assets/Scripts/Asteroids/Template Method/VK.cs
-  artifactKey: Guid(1fb2c06e6581a8b4db61a540fa81e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Template Method/VK.cs using Guid(1fb2c06e6581a8b4db61a540fa81e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02faaa3c6a1295be900a286284e20e63') in 0.001337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.050451 seconds.
-  path: Assets/Scripts/Asteroids/Template Method/Start.cs
-  artifactKey: Guid(04ce97d5b708a47488e188081e903923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Template Method/Start.cs using Guid(04ce97d5b708a47488e188081e903923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5136682dbd64efbaeb04c49c983f8372') in 0.001493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.380754 seconds.
-  path: Assets/Scripts/Asteroids/Visitor
-  artifactKey: Guid(86ddee26f8c30394681cd7c8570dea6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor using Guid(86ddee26f8c30394681cd7c8570dea6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5bf556852700d5dba3bdc342d5e2b4') in 0.003152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.123419 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/NewBehaviourScript.cs
-  artifactKey: Guid(f11849885cef1ff4a90d24608d4ac827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/NewBehaviourScript.cs using Guid(f11849885cef1ff4a90d24608d4ac827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43576dcd68ed3b063548630bca6e097a') in 0.001827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.919463 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/Hit.cs
-  artifactKey: Guid(f11849885cef1ff4a90d24608d4ac827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/Hit.cs using Guid(f11849885cef1ff4a90d24608d4ac827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992551b4433fdd1c9d463b364cf59061') in 0.001455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.535707 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/Enemy.cs
-  artifactKey: Guid(ba8f82065d9492b488326cafe673485c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/Enemy.cs using Guid(ba8f82065d9492b488326cafe673485c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5396a446e82b8bc356ba0bd25f0e8ad6') in 0.001583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.841615 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/Environment.cs
-  artifactKey: Guid(784eff499ba0c3245ab254976dbf73b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/Environment.cs using Guid(784eff499ba0c3245ab254976dbf73b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c010d67e637cd3fac682957a320ad06') in 0.003204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.359754 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/Knight.cs
-  artifactKey: Guid(92b0339ab81232c4f95430d9834dc299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/Knight.cs using Guid(92b0339ab81232c4f95430d9834dc299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e16301f4aa8024e123001c64ac81df') in 0.001361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.918021 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/InfoCollision.cs
-  artifactKey: Guid(725b02d173a11f44bb32db96cbdf85d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/InfoCollision.cs using Guid(725b02d173a11f44bb32db96cbdf85d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbc301537a052604bf036534c276df1') in 0.002113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.631194 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/IDealingDamage.cs
-  artifactKey: Guid(908693d17fc4ba2429ecb97da2d514ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/IDealingDamage.cs using Guid(908693d17fc4ba2429ecb97da2d514ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c490393d578567a7ca3937b495bf62') in 0.001973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.004773 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/ConsoleDisplay.cs
-  artifactKey: Guid(ff15560fa550dd14b8738e3c6dc609cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/ConsoleDisplay.cs using Guid(ff15560fa550dd14b8738e3c6dc609cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b1013ef78d3c48b835b87a1b7d6afe') in 0.005782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.727777 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/ApplayDamage.cs
-  artifactKey: Guid(add8b2f60ac077f45996ef30d11c352b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/ApplayDamage.cs using Guid(add8b2f60ac077f45996ef30d11c352b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41e1186185d9de5a0a1edee682aa74b') in 0.002397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.584550 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/VisitorTest.cs
-  artifactKey: Guid(40ec08b66a287334eb1d020d84d4dd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/VisitorTest.cs using Guid(40ec08b66a287334eb1d020d84d4dd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f31ec927f13fcb1836355f714ad02d1') in 0.002861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 79.606226 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/Enemy.cs
-  artifactKey: Guid(ba8f82065d9492b488326cafe673485c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/Enemy.cs using Guid(ba8f82065d9492b488326cafe673485c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a6cd6fa3c83b50d2a464ced8621474') in 0.001231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.338876 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/Environment.cs
-  artifactKey: Guid(784eff499ba0c3245ab254976dbf73b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/Environment.cs using Guid(784eff499ba0c3245ab254976dbf73b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6774e6a7e2dd1abc88bf77190d13598a') in 0.001251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.551417 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/Environment.cs
-  artifactKey: Guid(784eff499ba0c3245ab254976dbf73b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/Environment.cs using Guid(784eff499ba0c3245ab254976dbf73b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d71077e62afeef0b9f7530de139a9b') in 0.001223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.620836 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/Knight.cs
-  artifactKey: Guid(92b0339ab81232c4f95430d9834dc299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/Knight.cs using Guid(92b0339ab81232c4f95430d9834dc299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fda5329d683f8f57f8d82ccc0eb3f48') in 0.001377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.284091 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/InfoCollision.cs
-  artifactKey: Guid(725b02d173a11f44bb32db96cbdf85d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/InfoCollision.cs using Guid(725b02d173a11f44bb32db96cbdf85d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3ebbc936f3f502ce55a839ffef7f7a') in 0.001458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.952822 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/IDealingDamage.cs
-  artifactKey: Guid(908693d17fc4ba2429ecb97da2d514ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/IDealingDamage.cs using Guid(908693d17fc4ba2429ecb97da2d514ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89054b8919cfbba757005b3b5e8a12a') in 0.001196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.152119 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/ConsoleDisplay.cs
-  artifactKey: Guid(ff15560fa550dd14b8738e3c6dc609cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/ConsoleDisplay.cs using Guid(ff15560fa550dd14b8738e3c6dc609cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a11c9e72e6ccb96496083367a152236') in 0.001420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.315520 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/ApplayDamage.cs
-  artifactKey: Guid(add8b2f60ac077f45996ef30d11c352b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/ApplayDamage.cs using Guid(add8b2f60ac077f45996ef30d11c352b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c998b12f19a994bc4febebf5b813deb3') in 0.001206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.418424 seconds.
-  path: Assets/Scripts/Asteroids/Visitor/VisitorTest.cs
-  artifactKey: Guid(40ec08b66a287334eb1d020d84d4dd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Asteroids/Visitor/VisitorTest.cs using Guid(40ec08b66a287334eb1d020d84d4dd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6298f2a1dd58efd22f28aab4bde4ab') in 0.001231 seconds 
+  Time since last request: 16.350863 seconds.
+  path: Assets/Scripts/Asteroids/MVVM/Starter.cs
+  artifactKey: Guid(d7afd8b542336c74a9b71849414953fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Asteroids/MVVM/Starter.cs using Guid(d7afd8b542336c74a9b71849414953fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df92e293f1b9a8d8a6f65206382464a') in 0.001145 seconds 
